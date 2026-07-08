@@ -9,48 +9,49 @@ nav_order: 1
 
 <style>
   .home {
-  max-width: 860px;
-  margin: 0 auto;
-  padding: 2.2rem 0 1.5rem;
-  line-height: 1.65;
-  font-family: "Roboto", Arial, sans-serif;
-  font-size: 1.1rem;
-}
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2.2rem 0 1.5rem;
+    line-height: 1.65;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 1.1rem;
+  }
 
-.home h1 {
-  font-size: 2.8rem;
-}
-.home h2 {
-  margin-top: 2rem;
-  font-family: "Roboto", Arial, sans-serif;
-  font-size: 1.8rem;
-}
+  .home h1 {
+    font-size: 2.8rem;
+  }
 
-.home a,
-footer a {
-  color: #b509ac !important;
-  font-weight: 700;
-  text-decoration: none;
-}
+  .home h2 {
+    margin-top: 2rem;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 1.8rem;
+  }
 
-.home a:hover,
-footer a:hover {
-  color: #8f087f !important;
-  text-decoration: underline;
-}
+  .home a,
+  footer a {
+    color: #b509ac !important;
+    font-weight: 700;
+    text-decoration: none;
+  }
 
-.navbar a,
-.navbar-brand,
-.navbar-nav a {
-  color: #b509ac !important;
-  font-weight: 700 !important;
-}
+  .home a:hover,
+  footer a:hover {
+    color: #8f087f !important;
+    text-decoration: underline;
+  }
 
-.navbar a:hover,
-.navbar-brand:hover,
-.navbar-nav a:hover {
-  color: #8f087f !important;
-}
+  .navbar a,
+  .navbar-brand,
+  .navbar-nav a {
+    color: #b509ac !important;
+    font-weight: 700 !important;
+  }
+
+  .navbar a:hover,
+  .navbar-brand:hover,
+  .navbar-nav a:hover {
+    color: #8f087f !important;
+  }
 
   .home-header {
     display: grid;
@@ -75,7 +76,7 @@ footer a:hover {
     border-radius: 2px;
     display: block;
     height: auto;
-     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.18);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.18);
   }
 
   .home-aside {
@@ -97,7 +98,7 @@ footer a:hover {
   }
 
   .publications .periodical {
-  font-size: 1rem;
+    font-size: 1rem;
   }
 
   .paper-title {
@@ -113,13 +114,13 @@ footer a:hover {
   }
 
   .publications {
-  margin-top: 0.5rem;
-}
+    margin-top: 0.5rem;
+  }
 
-.publications h2.bibliography {
-  margin-top: 0.8rem !important;
-  padding-top: 0.5rem !important;
-}
+  .publications h2.bibliography {
+    margin-top: 0.8rem !important;
+    padding-top: 0.5rem !important;
+  }
 
   @media (max-width: 640px) {
     .home-header {
@@ -143,11 +144,10 @@ footer a:hover {
   }
 
   .publications ol.bibliography li .preview {
-  width: 120px !important;
-  max-width: 120px !important;
-  height: auto !important;
+    width: 120px !important;
+    max-width: 120px !important;
+    height: auto !important;
   }
-
 </style>
 
 <main class="home">
@@ -172,7 +172,6 @@ footer a:hover {
   </div>
 
   <h2>Publications</h2>
-
 
   <!-- <p class="publication-note">* means equal contribution</p> -->
 
