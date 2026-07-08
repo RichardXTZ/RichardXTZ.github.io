@@ -11,14 +11,17 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal academic website of Tianzhi Xiang.
 footer_text: >
-  (c) Tianzhi Xiang.
+  &copy; Copyright 2026 Tianzhi Xiang. Powered by
+  <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
+  <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme.
+  Last updated: July 8, 2026.
 keywords: Tianzhi Xiang, academic website, research
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: T # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://RichardXTZ.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: false # footer_text already includes a manual last-updated line
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 

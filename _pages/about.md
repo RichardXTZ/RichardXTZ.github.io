@@ -1,10 +1,16 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle:
+nav: true
+nav_order: 1
 
-profile: false
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false
+  more_info:
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -20,8 +26,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am Tianzhi Xiang. This website collects my research, publications, and selected academic materials.
+I am Tianzhi Xiang. This website collects my academic profile, CV, research updates, and selected publications.
 
-My work and interests will be summarized here. For now, the site is intentionally minimal: a short bio, contact links, and a publication list.
+My work and interests are summarized through a concise academic profile, selected publications, and links to supporting materials.
 
-Links: [GitHub](https://github.com/RichardXTZ) / [Publications](/publications/)
+Email: [tianzhi_xiang@163.com](mailto:tianzhi_xiang@163.com) / [CV](/assets/pdf/cv.pdf) / [GitHub](https://github.com/RichardXTZ)
+
+## Publications
+
+1. **Your paper title here.** Tianzhi Xiang. *Venue or preprint server*, 2026. [[paper](#)]
