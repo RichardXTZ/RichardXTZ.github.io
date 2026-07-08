@@ -7,6 +7,8 @@ nav: false
 nav_order: 1
 ---
 
+<!-- prettier-ignore-start -->
+
 <style>
   .home {
     max-width: 860px;
@@ -188,3 +190,5 @@ nav_order: 1
     {% bibliography --query @*[selected=true] %}
   </div>
 </main>
+
+<!-- prettier-ignore-end -->
