@@ -58,8 +58,21 @@ nav_order: 1
   .home-header {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 250px;
-    gap: 2rem;
+    grid-template-areas:
+      "name ."
+      "bio aside";
+    column-gap: 2rem;
+    row-gap: 0.8rem;
     align-items: start;
+  }
+
+  .home-name {
+    grid-area: name;
+    margin: 0;
+  }
+
+  .home-bio {
+    grid-area: bio;
   }
 
   .contact-links {
@@ -82,6 +95,7 @@ nav_order: 1
   }
 
   .home-aside {
+    grid-area: aside;
     width: 250px;
   }
 
@@ -125,23 +139,44 @@ nav_order: 1
   }
 
   @media (max-width: 640px) {
+    .home {
+      padding: 1.4rem 0.8rem 1.5rem;
+      font-size: 1rem;
+    }
+
     .home-header {
-      display: block;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "name"
+        "aside"
+        "bio";
+      row-gap: 0.75rem;
+      justify-items: center;
+    }
+
+    .home-name {
+      text-align: center;
+      font-size: 2.1rem;
     }
 
     .home-photo {
-      width: 150px;
-      margin: 0 0 1rem;
+      width: 170px;
+      margin: 0 auto;
     }
 
     .home-aside {
-      width: 150px;
-      margin-bottom: 1rem;
+      width: 100%;
+      margin-bottom: 0.35rem;
     }
 
     .contact-links {
-      text-align: left;
-      margin-top: -0.4rem;
+      text-align: center;
+      margin: 0.65rem 0 0;
+      font-size: 1rem;
+    }
+
+    .home-bio {
+      width: 100%;
     }
   }
 
@@ -154,9 +189,19 @@ nav_order: 1
 
 <main class="home">
   <div class="home-header">
-    <section>
-      <h1>Tianzhi Xiang</h1>
+    <h1 class="home-name">Tianzhi Xiang</h1>
 
+    <aside class="home-aside">
+      <img class="home-photo" src="/assets/img/prof_pic.jpg" alt="Tianzhi Xiang" />
+
+      <p class="contact-links">
+        <a href="mailto:xiangtz@tju.edu.com">Email</a> |
+        <a href="/assets/pdf/cv.pdf">CV</a> |
+        <a href="https://github.com/RichardXTZ">GitHub</a>
+      </p>
+    </aside>
+
+    <section class="home-bio">
       <p>
         I am an M.S. candidate in Mechanics at Tianjin University, advised by Prof.
         <a href="https://scholar.google.com.hk/citations?user=oob-8JwAAAAJ&hl=zh-CN">Yanfeng Wang</a>. I received my B.Eng. in Engineering Mechanics
@@ -170,16 +215,6 @@ nav_order: 1
         strongly impedance-mismatched interfaces.
       </p>
     </section>
-
-    <aside class="home-aside">
-      <img class="home-photo" src="/assets/img/prof_pic.jpg" alt="Tianzhi Xiang" />
-
-      <p class="contact-links">
-        <a href="mailto:xiangtz@tju.edu.com">Email</a> |
-        <a href="/assets/pdf/cv.pdf">CV</a> |
-        <a href="https://github.com/RichardXTZ">GitHub</a>
-      </p>
-    </aside>
   </div>
 
   <h2>Publications</h2>
