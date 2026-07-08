@@ -140,6 +140,7 @@ nav_order: 1
 
   @media (max-width: 640px) {
     .home {
+      --mobile-image-width: min(86vw, 320px);
       padding: 1.4rem 0.8rem 1.5rem;
       font-size: 1rem;
     }
@@ -160,7 +161,7 @@ nav_order: 1
     }
 
     .home-photo {
-      width: 170px;
+      width: var(--mobile-image-width);
       margin: 0 auto;
     }
 
@@ -177,6 +178,13 @@ nav_order: 1
 
     .home-bio {
       width: 100%;
+    }
+
+    .publications ol.bibliography li .preview {
+      width: var(--mobile-image-width) !important;
+      max-width: var(--mobile-image-width) !important;
+      margin: 0 auto 0.8rem !important;
+      display: block !important;
     }
   }
 
