@@ -155,9 +155,18 @@ nav_order: 1
     <section>
       <h1>Tianzhi Xiang</h1>
 
-      <p>I am an M.S. candidate in Mechanics at Tianjin University, advised by Prof. <a href="https://scholar.google.com.hk/citations?user=oob-8JwAAAAJ&hl=zh-CN">Yanfeng Wang</a>. I received my B.Eng. in Engineering Mechanics from Tianjin University. Currently I am fortunate to work with Prof. <a href="https://scholar.google.com/citations?user=4sE5xgwAAAAJ&hl=en">Johan Christensen</a> at <a href="https://materials.imdea.org/">IMDEA Materials Institute</a>.</p>
+      <p>
+        I am an M.S. candidate in Mechanics at Tianjin University, advised by Prof.
+        <a href="https://scholar.google.com.hk/citations?user=oob-8JwAAAAJ&hl=zh-CN">Yanfeng Wang</a>. I received my B.Eng. in Engineering Mechanics
+        from Tianjin University. Currently I am fortunate to work with Prof.
+        <a href="https://scholar.google.com/citations?user=4sE5xgwAAAAJ&hl=en">Johan Christensen</a> at
+        <a href="https://materials.imdea.org/">IMDEA Materials Institute</a>.
+      </p>
 
-      <p>My research focuses on acoustic metasurfaces and vibro-acoustic wave manipulation, with an emphasis on efficient wave transmission across strongly impedance-mismatched interfaces.</p>
+      <p>
+        My research focuses on acoustic metasurfaces and vibro-acoustic wave manipulation, with an emphasis on efficient wave transmission across
+        strongly impedance-mismatched interfaces.
+      </p>
     </section>
 
     <aside class="home-aside">
