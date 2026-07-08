@@ -65,7 +65,7 @@ nav_order: 1
   .contact-links {
     margin: 0.7rem 0 0;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .contact-links a,
