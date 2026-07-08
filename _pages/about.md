@@ -138,6 +138,12 @@ nav_order: 1
     padding-top: 0.5rem !important;
   }
 
+  .publications ol.bibliography li .preview {
+    width: 120px !important;
+    max-width: 120px !important;
+    height: auto !important;
+  }
+
   @media (max-width: 640px) {
     .home {
       --mobile-image-width: min(86vw, 320px);
@@ -186,12 +192,14 @@ nav_order: 1
       margin: 0 auto 0.8rem !important;
       display: block !important;
     }
-  }
 
-  .publications ol.bibliography li .preview {
-    width: 120px !important;
-    max-width: 120px !important;
-    height: auto !important;
+    .publications ol.bibliography li .abbr,
+    .publications ol.bibliography li .col-sm-2 {
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+      width: 100% !important;
+      text-align: center;
+    }
   }
 </style>
 
